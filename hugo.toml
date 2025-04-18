@@ -1,0 +1,11 @@
+baseURL = 'https://jonathanmlowery.com/'
+languageCode = 'en-us'
+title = 'Jonathan Lowery'
+theme = 'nightfall'
+
+[params]
+  user = "user"
+  hostname = "jonathanmlowery.com"
+  [params.author]
+    name = "Jonathan Lowery"
+    email = "contact@jonathanmlowery.com"

@@ -1,0 +1,15 @@
+/public/
+/resources/
+
+*.swp
+*.bak
+*~
+
+.hugo_build.lock
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.env
