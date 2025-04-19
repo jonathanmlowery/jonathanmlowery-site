@@ -1,7 +1,7 @@
-baseURL = 'https://jonathanmlowery.com/'
-languageCode = 'en-us'
-title = 'Jonathan Lowery'
-theme = 'nightfall'
+baseURL = "https://jonathanmlowery.com/"
+languageCode = "en-us"
+title = "Jonathan Lowery"
+theme = "nightfall"
 
 [params]
   user = "user"
@@ -9,3 +9,27 @@ theme = 'nightfall'
   [params.author]
     name = "Jonathan Lowery"
     email = "contact@jonathanmlowery.com"
+  [[params.social]]
+    key = 0
+    name = "Github"
+    url = "https://github.com/jonathanmlowery"
+    icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+    target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
+    aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+
+[[menu.header]]
+  name = "home"
+  url = "/"
+  weight = 1
+[[menu.header]]
+  name = "about"
+  url = "/about"
+  weight = 2
+[[menu.header]]
+  name = "blog"
+  url = "/blog/"
+  weight = 3
+[[menu.header]]
+  name = "cli"
+  url = "/cli/"
+  weight = 4
