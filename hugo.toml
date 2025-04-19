@@ -1,4 +1,5 @@
 baseURL = "https://jonathanmlowery.com/"
+staticDir = "static"
 languageCode = "en-us"
 title = "Jonathan Lowery"
 theme = "nightfall"

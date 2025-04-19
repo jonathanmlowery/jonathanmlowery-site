@@ -1,4 +1,4 @@
-import { commands } from "/commands.js";
+import { commands } from "./commands.js";
 
 const output = document.getElementById("terminal-output");
 

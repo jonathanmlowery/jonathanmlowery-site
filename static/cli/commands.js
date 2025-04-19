@@ -44,6 +44,8 @@ const help = (args) => {
 			"  <a>theme (name)</a>         change terminal theme (monokai, synthwave, dracula, matrix, solarized)",
 			"  <a>fontsize (pixels)</a>    change the terminal text size",
 			"  <a>clear</a>                clear previous terminal output",
+			"Actions:",
+			"  <a>exit</a>                 exit the cli",
 			"",
 		].join("\n") +
 		"</pre>"
@@ -68,4 +70,10 @@ const certs = (args) => {
 	);
 };
 
-export const commands = { theme, fontsize, help, clear, welcome, certs };
+const exit = (args) => {
+	window.location.href = "/";
+
+	return null;
+};
+
+export const commands = { theme, fontsize, help, clear, welcome, certs, exit };
