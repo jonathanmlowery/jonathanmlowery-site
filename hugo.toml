@@ -6,6 +6,7 @@ theme = "nightfall"
 [params]
   user = "user"
   hostname = "jonathanmlowery.com"
+  location = "Eldersburg, MD"
   [params.author]
     name = "Jonathan Lowery"
     email = "contact@jonathanmlowery.com"
@@ -13,9 +14,16 @@ theme = "nightfall"
     key = 0
     name = "Github"
     url = "https://github.com/jonathanmlowery"
-    icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
-    target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
-    aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+    icon = "fa-brands fa-github"
+    target = "_blank"
+    aria = "GitHub Profile"
+  [[params.social]]
+    key = 1
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/jonathan-lowery-724a7524a"
+    icon = "fa-brands fa-linkedin"
+    target = "_blank"
+    aria = "LinkedIn Profile"
 
 [[menu.header]]
   name = "home"

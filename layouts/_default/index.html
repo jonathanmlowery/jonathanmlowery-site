@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 	<head>
-		<title>{{ i18n "home" }} | {{ .Site.Params.author.name }}</title>
+		<title>{{ .Title }}</title>
 
 		{{ partial "head.html" . }}
 	</head>
@@ -17,13 +17,17 @@
 						}} {{ end }}
 						<div>
 							<h1 class="indexHeader">{{ .Site.Params.author.name }}</h1>
+							{{ if .Site.Params.location }}
+							<h3 class="indexSubHeader">
+								<i class="fa-solid fa-location-pin" style="color: crimson"></i>
+								{{ .Site.Params.location }}
+							</h3>
+							{{ end }}
 						</div>
 						{{ if not .Site.Params.author.avatarFirst }} {{ partial
 						"avatar.html" . }} {{ end }} {{ if isset .Site.Params "social" }} {{
 						partial "social.html" . }} {{ end }}
 					</div>
-
-					{{.Content}}
 				</main>
 			</div>
 
