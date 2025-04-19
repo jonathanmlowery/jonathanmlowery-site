@@ -104,7 +104,7 @@ command_input.addEventListener("keydown", (e) => {
 	}
 });
 
-commands.theme(["theme", "monokai"]);
+commands.theme(["theme", "nightfall"]);
 
 const response = document.createElement("p");
 let command_output;

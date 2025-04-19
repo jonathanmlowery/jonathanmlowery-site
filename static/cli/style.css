@@ -1,3 +1,13 @@
+:root.theme-nightfall {
+	--background: #252627;
+	--foreground: #f8f8ff;
+	--prompt: #80aadd;
+	--command: #33d17a;
+	--output: #ffb300;
+	--error: #f26e74;
+	--dimmed: #323232;
+}
+
 :root.theme-monokai {
 	--background: #272822;
 	--foreground: #f8f8f2;
