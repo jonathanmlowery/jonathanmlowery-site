@@ -10,7 +10,7 @@ const exec_command = (command) => {
 	command_text.classList.add("command");
 	command_text.innerText = command;
 
-	prompt_line.innerText = "user@jonathanmlowery.com$\u00A0";
+	prompt_line.innerText = "user@jonathanmlowery.com ~ $\u00A0";
 	prompt_line.appendChild(command_text);
 	output.appendChild(prompt_line);
 
@@ -64,6 +64,9 @@ command_input.addEventListener("keydown", (e) => {
 	} else if (e.ctrlKey && e.key.toLowerCase() === "l") {
 		e.preventDefault();
 		commands.clear("clear");
+	} else if (e.ctrlKey && e.key.toLowerCase() === "d") {
+		e.preventDefault();
+		commands.exit("exit");
 	} else if (e.key === "ArrowUp") {
 		command_index = Math.max(0, command_index - 1);
 
