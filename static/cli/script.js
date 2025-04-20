@@ -21,7 +21,7 @@ const exec_command = (command) => {
 
 	if (args[0] in commands) {
 		command_output = commands[args[0]](args);
-	} else {
+	} else if (args[0] != "") {
 		command_output = "<pre class='error'>Command not found</pre>";
 	}
 
