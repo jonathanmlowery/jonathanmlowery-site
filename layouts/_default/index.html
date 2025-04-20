@@ -16,10 +16,15 @@
 						{{ if .Site.Params.author.avatarFirst }} {{ partial "avatar.html" .
 						}} {{ end }}
 						<div>
-							<h1 class="indexHeader">{{ .Site.Params.author.name }}</h1>
+							<h1 class="indexHeader" style="margin-bottom: 4px">
+								{{ .Site.Params.author.name }}
+							</h1>
 							{{ if .Site.Params.location }}
-							<h3 class="indexSubHeader">
-								<i class="fa-solid fa-location-pin" style="color: crimson"></i>
+							<h3
+								class="indexSubHeader"
+								style="margin: 0px; color: rgb(185, 185, 185)"
+							>
+								<i class="fa-solid fa-location-pin" style="color: #f26e74"></i>
 								{{ .Site.Params.location }}
 							</h3>
 							{{ end }}
@@ -28,6 +33,8 @@
 						"avatar.html" . }} {{ end }} {{ if isset .Site.Params "social" }} {{
 						partial "social.html" . }} {{ end }}
 					</div>
+
+					<div>{{ .Content }}</div>
 				</main>
 			</div>
 
