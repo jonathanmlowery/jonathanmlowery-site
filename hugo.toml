@@ -8,9 +8,15 @@ theme = "nightfall"
   user = "user"
   hostname = "jonathanmlowery.com"
   location = "Eldersburg, MD"
+ 
+
   [params.author]
     name = "Jonathan Lowery"
     email = "contact@jonathanmlowery.com"
+    avatarFirst = true
+    avatar = "/avatar.png"
+    avatarSize = "size-m"
+
   [[params.social]]
     key = 0
     name = "Github"
@@ -18,6 +24,7 @@ theme = "nightfall"
     icon = "fa-brands fa-github"
     target = "_blank"
     aria = "GitHub Profile"
+
   [[params.social]]
     key = 1
     name = "LinkedIn"
