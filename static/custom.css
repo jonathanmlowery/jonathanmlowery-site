@@ -1,0 +1,23 @@
+.fa-location-pin {
+	color: #e22626;
+	text-shadow: 2px 2px 6px black;
+	/* text-shadow: -1px -1px 3px white; */
+}
+
+h1 {
+	text-shadow: 2px 2px 0px #808080;
+}
+
+h2 {
+	text-shadow: 1px 1px 0px #808080;
+}
+
+h3 {
+	margin: 0px;
+	color: #808080;
+	text-shadow: 1px 1px 6px black;
+}
+
+.authorImageWrapper {
+	margin-top: 15%;
+}
