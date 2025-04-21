@@ -10,7 +10,7 @@ theme = "nightfall"
 [params]
   user = "user"
   hostname = "jonathanmlowery.com"
-  location = "Eldersburg, MD"
+  location = "Baltimore, MD"
  
 
   [params.author]
