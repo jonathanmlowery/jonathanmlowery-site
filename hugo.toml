@@ -4,6 +4,9 @@ languageCode = "en-us"
 title = "Jonathan Lowery"
 theme = "nightfall"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   user = "user"
   hostname = "jonathanmlowery.com"
@@ -38,14 +41,10 @@ theme = "nightfall"
   url = "/"
   weight = 1
 [[menu.header]]
-  name = "about"
-  url = "/about"
+  name = "cli"
+  url = "/cli/"
   weight = 2
 [[menu.header]]
   name = "blog"
   url = "/blog/"
   weight = 3
-[[menu.header]]
-  name = "cli"
-  url = "/cli/"
-  weight = 4

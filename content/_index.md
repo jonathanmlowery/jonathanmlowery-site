@@ -8,7 +8,11 @@ layout = "index"
 
 ## Certifications
 
-Python Institute PCAP | Comptia A+ | Comptia Network+
+<!-- ![Python Institute PCAP](/cert_pcap.png) ![Comptia A+](/cert_a_plus.png) ![Comptia Network+](/cert_network_plus.png) -->
+<img src="cert_pcap.png" alt="Python Institute PCAP" width="25%"/>&nbsp; &nbsp;
+<img src="cert_a_plus.png" alt="Comptia A+" width="25%"/>&nbsp; &nbsp;
+<img src="cert_network_plus.png" alt="Comptia Network+" width="25%"/>&nbsp; &nbsp;
+<br /> <br />
 
 ## Technologies
 
