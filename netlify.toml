@@ -1,5 +1,5 @@
 [build]
-  command = "npm install sass && hugo --gc --minify"
+  command = "npm install -g sass && hugo --gc --minify"
   publish = "public"
 
 [build.environment]
