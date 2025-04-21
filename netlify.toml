@@ -4,4 +4,3 @@
 
 [build.environment]
   HUGO_VERSION = "0.146.6"
-  DART_SASS_EMBEDDED = "/usr/local/bin/dart-sass-embedded"
