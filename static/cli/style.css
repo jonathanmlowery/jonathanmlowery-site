@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
 :root.theme-nightfall {
 	--background: #252627;
 	--foreground: #f8f8ff;
@@ -59,7 +61,7 @@
 }
 
 * {
-	font-family: monospace;
+	font-family: "JetBrains Mono", monospace;
 	font-size: var(--terminal-font-size);
 	margin: 0;
 	padding: 0;

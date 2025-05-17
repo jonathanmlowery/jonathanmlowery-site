@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
 .fa-location-pin {
 	color: #e22626;
 	text-shadow: 2px 2px 3px black;
@@ -6,13 +8,16 @@
 
 h1 {
 	text-shadow: 1px 1px 0px #808080;
+	font-family: "JetBrains Mono";
 }
 
 h2 {
 	text-shadow: 1px 1px 0px #808080;
+	font-family: "JetBrains Mono";
 }
 
 h3 {
+	font-family: "JetBrains Mono";
 	margin: 0px;
 	color: #808080;
 	text-shadow: 1px 1px 3px black;
