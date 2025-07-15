@@ -8,9 +8,10 @@ layout = "index"
 
 ## Certifications
 
-<img class="fade-in" src="cert_pcap.png" alt="Python Institute PCAP" width="25%"/>&nbsp; &nbsp;
 <img class="fade-in" src="cert_a_plus.png" alt="Comptia A+" width="25%"/>&nbsp; &nbsp;
 <img class="fade-in" src="cert_network_plus.png" alt="Comptia Network+" width="25%"/>&nbsp; &nbsp;
+<img class="fade-in" src="cert_security_plus.png" alt="Comptia Security+" width="25%"/>&nbsp; &nbsp;
+<img class="fade-in" src="cert_pcap.png" alt="Python Institute PCAP" width="25%"/>&nbsp; &nbsp;
 <br /> <br />
 
 ## Technologies
