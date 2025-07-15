@@ -8,9 +8,9 @@ const welcome_ascii = `<pre>
      dZP        qKRb          To view a list of available commands, type '<a>help</a>'
     dZP          qKKb         
    fZP            SMMb        Javascript | <a href="https://www.linkedin.com/in/jonathan-lowery-724a7524a/" target="_blank">LinkedIn</a> | Python Institute PCAP
-   HZM            MMMM        Python     | <a href="https://github.com/jonathanmlowery" target="_blank">GitHub</a>   | Comptia A+
-   FqM            MMMM        Java       | <a href="/resume.pdf" target="_blank">Resume</a>   | Comptia Network+
- __| ".        |\\dS"qML       C++        |          |
+   HZM            MMMM        Python     | <a href="https://github.com/jonathanmlowery" target="_blank">GitHub</a>   | CompTIA A+
+   FqM            MMMM        Java       | <a href="/resume.pdf" target="_blank">Resume</a>   | CompTIA Network+
+ __| ".        |\\dS"qML       C++        |          | CompTIA Security+
  |    \`.       | \`' \\Zq       
 _)      \\.___.,|     .'       Email: <a href="mailto:contact@jonathanmlowery.com" target="_blank">contact@jonathanmlowery.com</a>
 \\____   )MMMMMP|   .'        
@@ -65,7 +65,12 @@ const welcome = (args) => {
 const certs = (args) => {
 	return (
 		"<pre>" +
-		["Python Institute PCAP", "Comptia A+", "Comptia Network+"].join("\n") +
+		[
+			"Python Institute PCAP",
+			"CompTIA A+",
+			"CompTIA Network+",
+			"CompTIA Security+",
+		].join("\n") +
 		"</pre>"
 	);
 };
