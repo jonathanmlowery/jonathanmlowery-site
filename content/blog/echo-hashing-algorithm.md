@@ -2,6 +2,7 @@
 date = '2025-04-22T19:32:14-04:00'
 layout = 'single'
 title = 'Echo Hashing Algorithm'
+summary = "Meet **ECHO** (Expand Compact Hashing Order), a custom-built hashing beast designed to churn out 256-bit keyhashes with wicked diffusion."
 +++
 
 Hashing algorithms are the unsung heroes of cryptography, turning passwords into secure keys with a bit of math. Meet **ECHO** (Expand Compact Hashing Order), a custom-built hashing beast designed to churn out 256-bit keyhashes with wicked diffusion. ECHO’s core is a two-step dance: **Bit Interleaving Expansion (BIE)** and **Sequential Bit Compaction (SBC)**. Now, is it secure? Probably not, I'm no cryptographer, and this was made as a fun little side project. Enough disclaiming though, let’s dive into how this algorithm works.
