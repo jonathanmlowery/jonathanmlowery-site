@@ -63,16 +63,15 @@ const welcome = (args) => {
 };
 
 const certs = (args) => {
-	return (
-		"<pre>" +
-		[
-			"Python Institute PCAP",
-			"CompTIA A+",
-			"CompTIA Network+",
-			"CompTIA Security+",
-		].join("\n") +
-		"</pre>"
-	);
+	return `<pre>
+  <a href="https://verify.openedg.org/?id=B5LK.z05a.FF2G" target="_blank">Python Institute PCAP</a>    | <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=XCBLE5XVHY6PVX5H" target="_blank">CompTIA A+</a>              | <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=40BR257561F1QLC2" target="_blank">CompTIA Network+</a>      | <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=KMEB9RQS0M1Q1PE2" target="_blank">CompTIA Security+</a>     
+ --------------------------+-------------------------+-----------------------+-----------------------
+  Python programming       | Troubleshooting methods | Network configuration | Threat identification 
+  Data structures          | OS installation         | TCP/IP basics         | Access controls       
+  Object-oriented concepts | Security best practices | Cabling standards     | Encryption methods    
+  Modules and packages     | Mobile devices          | Wireless networking   | Incident response     
+
+</pre>`;
 };
 
 const exit = (args) => {
